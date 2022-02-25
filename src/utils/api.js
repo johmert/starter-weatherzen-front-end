@@ -46,7 +46,11 @@ async function fetchJson(url, options) {
 }
 
 export async function createObservation(observation, signal) {
+<<<<<<< HEAD
   const url = `${API_BASE_URL}/observations`
+=======
+  const url = `${API_BASE_URL}/observations`;
+>>>>>>> 710ec6220ddd342a652c301c7216fdec73e75aef
   const options = {
     method: "POST",
     headers,
